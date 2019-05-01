@@ -1,0 +1,25 @@
+{
+  "name": "stock-data-backend",
+  "version": "1.0.0",
+  "description": "A backend application for accessing stock data via RESTful APIS",
+  "main": "main.js",
+  "scripts": {
+    "test": "node",
+    "start": "npm run eslint && node main.js .env"
+  },
+  "author": "srikanth tunuguntla",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-eslint": "~10.0.1",
+    "eslint": "~5.14.1",
+    "eslint-config-airbnb-base": "~12.1.0",
+    "eslint-plugin-import": "~2.8.0"
+  },
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "csvtojson": "^2.0.8",
+    "eslint": "^4.9.0",
+    "express": "^4.16.4",
+    "winston": "^3.2.1"
+  }
+}
